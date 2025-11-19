@@ -33,7 +33,7 @@ Please finish the functions below and submit your lisp source code file on Canva
         
 *****   
 
-## Function One   
+## Function One: Set Belongingness   
 
 - Return T if item is a member of set.
 
@@ -57,7 +57,7 @@ Please finish the functions below and submit your lisp source code file on Canva
     
 *****   
 
-## Function Two   
+## Function Two: Set Union   
 
 - Return the union of set-1 and set-2.
 
@@ -79,7 +79,7 @@ Please finish the functions below and submit your lisp source code file on Canva
     
 *****   
 
-## Function Three   
+## Function Three: Set Intersection   
 
 - Return the intersection of set-1 and set-2.
 
@@ -101,7 +101,7 @@ Please finish the functions below and submit your lisp source code file on Canva
  
 *****   
 
-## Function Four
+## Function Four: Set Difference     
 
 - Return the difference of set-1 and set-2.
 
@@ -123,7 +123,7 @@ Please finish the functions below and submit your lisp source code file on Canva
     
 *****   
 
-## Function Five    
+## Function Five: XOR    
 
 - Return the exclusive or of a and b
 
@@ -143,7 +143,7 @@ Please finish the functions below and submit your lisp source code file on Canva
   
 *****   
 
-## Function Six   
+## Function Six: Boolean Implication      
 
 - Return the implication of a and b
 
@@ -163,7 +163,7 @@ Please finish the functions below and submit your lisp source code file on Canva
     
 *****   
 
-## Function Seven    
+## Function Seven: Boolean Bijection    
 
 - Return the bi-implication (if and only if) of a and b
 
@@ -183,7 +183,7 @@ Please finish the functions below and submit your lisp source code file on Canva
       
 *****   
 
-## Function Eight    
+## Function Eight: Boolean Expression     
 
 - Evaluate a boolean expression.
 
@@ -205,7 +205,7 @@ Please finish the functions below and submit your lisp source code file on Canva
 
 *****   
 
-## Function Nine     
+## Function Nine: Merge Sort       
 
 - Perform merge sort on the lists.
 
