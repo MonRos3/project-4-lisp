@@ -16,8 +16,17 @@ This is a place for the working/unfinished function to exist, so we can see what
 
 ```lisp
 (defun set-member (set item)
+  (cond
+    ((equal set nil) nil)
+    ((equal (car set) item) t)
+    (t (set-member (cdr set) item))))
+```
 
-  ;;Your implementation go here
-
-)
+```lisp
+;; Test cases for belongingness
+(format t "Testing belongingness:~%")
+(format t "(set-member '(1 2) 1) => ~a (expected: T)~%" (set-member '(1 2) 1))
+(format t "(set-member '(1 2) 3) => ~a (expected: NIL)~%" (set-member '(1 2) 3))
+(format t "(set-member '(1 2 3 4) 4) => ~a (expected: T)~%" (set-member '(1 2 3 4) 4))
+(format t "(set-member '() 1) => ~a (expected: NIL)~%~%" (set-member '() 1))
 ```
