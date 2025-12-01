@@ -22,3 +22,11 @@ This is a place for the working/unfinished function to exist, so we can see what
             (set-diff (cdr set-1) set-2)))
         (t (set-diff (cdr set-1) set-2))))
 ```
+
+```lisp
+;; Test cases for set-diff
+(format t "Testing set-diff:~%")
+(format t "(set-diff '(1 2) '(2 4)) => ~a (expected: (1))~%" (set-diff '(1 2) '(2 4)))
+(format t "(set-diff '(1 2 3 4) '(2 4)) => ~a (expected: (1 3))~%" (set-diff '(1 2 3 4) '(2 4)))
+(format t "(set-diff '(1 1 2 3) '(1)) => ~a (expected: (2 3))~%" (set-diff '(1 1 2 3) '(1)))
+```

@@ -22,3 +22,12 @@ This is a place for the working/unfinished function to exist, so we can see what
     (t (set-intersection (cdr set-1) set-2)))
 )
 ```
+
+```lisp
+;; Test cases for set-intersection
+(format t "Testing set-intersection:~%")
+(format t "(set-intersection '(1 2) '(2 4)) => ~a (expected: (2))~%" (set-intersection '(1 2) '(2 4)))
+(format t "(set-intersection '(1 2 3) '(2 3 4)) => ~a (expected: (2 3))~%" (set-intersection '(1 2 3) '(2 3 4)))
+(format t "(set-intersection '(1 2 3) '(3 4 5)) => ~a (expected: (3))~%" (set-intersection '(1 2 3) '(3 4 5)))
+(format t "(set-intersection '(1 2 3) '()) => ~a (expected: NIL)~%" (set-intersection '(1 2 3) '()))
+```
