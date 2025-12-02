@@ -671,6 +671,3 @@
 (format t "(merge-sort '(6 5 4 3 2 1) #'<) => ~a  (expected: (1 2 3 4 5 6))~%"
         (merge-sort '(6 5 4 3 2 1) #'<))
 (format t "~%")
-(format t "(merge-sort '(6 5 4 3 2 1) #'<) => ~a  (expected: (1 2 3 4 5 6))~%"
-        (merge-sort '(6 5 4 3 2 1) #'<))
-(format t "~%")
