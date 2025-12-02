@@ -10,8 +10,7 @@
         ((set-member set-2 (car set-1))
             (cons (car set-1)
                 (set-intersection (cdr set-1) set-2)))
-    (t (set-intersection (cdr set-1) set-2)))
-)
+    (t (set-intersection (cdr set-1) set-2))))
 
 ;; ----------------------------------------------------------------------
 ;; Tests for set-intersection
