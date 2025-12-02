@@ -79,7 +79,7 @@
 (format t "~%")
 
 ;; ------------------------------------------------------------
-;; Symbol / string tests
+;; Symbol
 ;; ------------------------------------------------------------
 (format t "Symbol / string tests:~%")
 (format t "(merge-sort '(c a d b) #'char<) => ~a  (expected: (a b c d))~%"
@@ -89,7 +89,7 @@
 (format t "~%")
 
 ;; ------------------------------------------------------------
-;; Already sorted vs reverse sorted (sanity checks)
+;; Already sorted vs reverse sorted
 ;; ------------------------------------------------------------
 (format t "Already-sorted / reverse-sorted checks:~%")
 (format t "(merge-sort '(1 2 3 4 5 6) #'<) => ~a  (expected: (1 2 3 4 5 6))~%"
